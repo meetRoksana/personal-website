@@ -1,0 +1,224 @@
+/* Global Css */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
+p {
+    color: #3d3d3d;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #202428;
+}
+
+/* GLobal Css ends */
+
+
+
+/* banner area starts */
+.banner-area {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.left-top-margin {
+    margin-top: 15%;
+}
+
+.half-width-right {
+    margin-top: 5%;
+}
+
+.half-width-left h1 {
+    margin-bottom: 5%;
+}
+
+.half-width-left p {
+    margin-bottom: 6%;
+}
+
+.half-width-left,
+.half-width-right {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+
+.half-width-right img {
+    width: 100%;
+}
+
+.hire-link-button {
+    text-decoration: none;
+    padding: 10px 31px;
+    border-radius: 4px;
+    color: white;
+    font-weight: normal;
+    background: linear-gradient(to right,#f08ccd 0,#8cd0e3 100%);
+    transition: .5s;
+    position: relative;
+}
+
+.hire-link-button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, .4);
+    width: 0;
+    height: 100%;
+    transition: .5s;
+}
+
+.hire-link-button:hover::before {
+    width: 100%;
+}
+
+
+
+/* banner area ends */
+
+/* About my work area starts */
+.About-my-work-area {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    height: 700px;
+}
+
+.left-img {
+    margin-top: 18%;
+}
+
+.half-width-left img {
+    width: 100%;
+}
+
+.about-content {
+    margin-top: 22%;
+}
+
+.about-content p {
+    margin: 5% 0 7% 0;
+}
+
+/* About my work area ends */
+
+/* latest Works starts */
+.work-area {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    height: 580px;
+}
+
+.work-area h2 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 5% auto;    
+    display: flex;
+}
+
+.single-work {
+    margin-right: 3%;
+}
+
+.single-work img {
+    width: 100%;
+
+}
+
+/* latest works ends */
+
+/* Clients section starts */
+.client-area {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    height: 580px;
+}
+
+.client-area h2 {
+    text-align: center;
+}
+
+.client-info {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.client-info h2 {
+    margin-bottom: .5%;
+}
+
+.client-info span {
+    color: #707070;
+}
+
+.client-info p {
+    width: 50%;
+    margin: 0 auto;
+    color: #333333;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+/* clients section ends */
+
+/* call to action starts */
+.call-to-action h3 {
+    margin-top: 10px;
+}
+
+.call-to-action {
+    background-image: linear-gradient(to right,#f08ccd 0,#8cd0e3 100%);
+    height: 18%;
+    width: 40%;
+    margin: 5% auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1% 0 3% 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+/* call to action ends */
+
+/* footer starts */
+footer p {
+    text-align: center;
+    color: #757575;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+/* footer ends */
